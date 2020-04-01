@@ -1,6 +1,7 @@
 
 import Contacts               from 'pages/contacts';
-import SuccussPage            from 'pages/success'
+import SuccussPage            from 'pages/success';
+import LifeCycle              from 'pages/lifecycle/parent'
 // import Layout             from 'layout/default';
 
 export default {
@@ -10,6 +11,7 @@ export default {
   childRoutes: [
     // { path: '', component: Contacts },
     { path: 'contacts', component: Contacts },
-    { path:'success',component:SuccussPage}
+    { path:'success',component:SuccussPage},
+    { path:'lifecycle',component:LifeCycle}
   ]
 }

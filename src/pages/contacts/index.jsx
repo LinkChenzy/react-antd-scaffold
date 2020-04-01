@@ -1,7 +1,7 @@
 import React        from 'react';
 import formItems    from './config'
 import ContactsForm from './contactsForm'
-import { message }  from 'antd'
+// import { message }  from 'antd'
 
 class Contacts extends React.Component {
 
@@ -10,6 +10,7 @@ class Contacts extends React.Component {
             ...value,
             time:value['time'].format('YYYY-MM-DD')
         }
+        console.log(values)
         // 数据提交请求
         // this.axios.post('/cbi',
         //     values
